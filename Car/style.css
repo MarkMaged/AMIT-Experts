@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    min-height: 100vh;
+    background: #181818 ;
+}
+
+nav{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 15px 10px -15px rgba(255, 255, 255, 0.5);
+}
+
+nav input[type="text"]{
+    background-color: transparent;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    padding: 8px;
+    text-align: center;
+    color: aqua;
+    font-weight: 600;
+    margin-top: 1%;
+    width: 25%;
+}
+
+nav input[type="text"]::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+nav input[type="button"]{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 10%;
+    padding: 8px;
+    border-radius: 25px;
+    font-weight: 1000;
+    background: transparent;
+    color: white;
+    border-color: aqua;
+}
+nav input[type="button"]:hover{
+    transform: scale(1.1);
+    border-radius: 0% 0% 50% 50%;
+    color: rgb(58, 47, 47);
+    background-color: aquamarine;
+    border: none;
+}
+.continer{
+    width: 20%;
+    height: 50vh;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 2%;
+    display: inline-block;
+    margin-left: 4% ;
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    position: absolute;
+    z-index: 3;
+    width: 90%;
+    top: 4%;
+    border-radius: 25px;
+}
+
+h2{
+    position: absolute;
+    bottom: 38%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+
+.continer:hover{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 5;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 20%;
+}
+
+button{
+    padding: 15px ;
+    background: transparent;
+    border: 2px solid aqua;
+    border-radius: 2px;
+    color: aquamarine;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border-radius: 0% 0% 50% 50%;
+    color: rgb(58, 47, 47);
+    background-color: aquamarine;
+    border: none;
+}
+
+.products{
+    width: 100%;
+}
